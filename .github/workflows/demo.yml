@@ -1,0 +1,11 @@
+name: Imprimir Nombre
+
+on:
+  workflow_dispatch:
+
+jobs:
+  mostrar-nombre:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Nombre completo
+        run: echo "Steven Rodriguez - IA"
